@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header">
+      <nav>
+        <h1> <span>N</span>ikita</h1>
+        <ul id="sidemenu">
+          <li>
+            <a href="#header">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#skill">Skill</a>
+          </li>
+          <li>
+            <a href="#heading">Project</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <i class="fa fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <!-- Home section -->
+      <div class="home">
+        <div class="text">
+          <p>Hi,</p>
+          <h1>I'am <span> Nikita,</span>
+            <br> Developer and Learner
+          </h1>
+        </div>
+        <div class="profile">
+          <img src="image/photo3.jpg" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+    <!-- About Section -->
+      <h1 id="about">About</h1>
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/photo.jpg" alt="">
+          </div>
+          <div class="about-col-2">
+            <h5>Developer <span>& designer</span>
+            </h5>
+            <p class="sub-para">I am a front-end web developer . I did my Bachelor of Computer Science(CSE) from SETGOI, 
+              West Bengal in 2022 with 9.1 CGPA.
+              I am a web developer having hands on experience of Web Developer. 
+              I did many small to large projects whose github and live link are given below .
+              I also make the website more & more intrective with web development with animation .<br>
+              that's all about me <br><span>Thanks</span>
+             </p>
+        </div>
+      </div>
+    <!--  Skill  -->
+      <div id="skill"> <h1>Skill</h1></div>
+      <div class="professional-skill">
+        <p>I have skill knowledge in c,c++,html,Css,JavaScript,MySql,PHP,. I have mentioned my expertise in terms of percentage for a skill that i am aware of.</p>
+      </div>
+      <div class="wrapper">
+      <div class="card">
+        <div class="circle">
+         <div class="bar"></div>
+          <div class="box"><span></span></div>
+         </div>
+         <div class="text">HTML & CSS</div>
+        </div>
+        <div class="card js">
+          <div class="circle">
+           <div class="bar"></div>
+            <div class="box"><span></span></div>
+           </div>
+           <div class="text">PHP & MYSQL</div>
+          </div>
+          <div class="card php">
+            <div class="circle">
+             <div class="bar"></div>
+              <div class="box"><span></span></div>
+             </div>
+             <div class="text">JavaScript</div>
+            </div>
+      </div>
+      <!-- project -->
+     <div id="heading"><h1>My work</h1></div>
+      <div id="project">
+        <div class="container">
+          <div class="project-list">
+            <div class="work">
+              <img src="image/work1.webp" alt="" srcset="">
+              <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime fuga cumque omnis repellat accusantium, adipisci corrupti hic enim corporis porro quasi architecto modi rerum beatae sapiente unde, delectus, quaerat velit?</p>
+                <a href=""><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="image/work2.jpeg" alt="" srcset="">
+              <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime fuga cumque omnis repellat accusantium, adipisci corrupti hic enim corporis porro quasi architecto modi rerum beatae sapiente unde, delectus, quaerat velit?</p>
+                <a href=""><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="image/work3.webp" alt="" srcset="">
+              <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime fuga cumque omnis repellat accusantium, adipisci corrupti hic enim corporis porro quasi architecto modi rerum beatae sapiente unde, delectus, quaerat velit?</p>
+                <a href=""><i class="fa fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Me -->
+      <div id="contact">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa fa-paper-plane"></i>nikuchahuhan@gmail.com</p>
+            <p><i class="fa fa-phone"></i>9002755371</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/nikita.chauhan.754703"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/nikita-kumari-nonia-700004222/"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/NikitaNonia03"><i class="fa fa-github"></i></a>
+            </div>
+            <a href="image/Resume78678.pdf" download class="btn">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text"name="name" placeholder="Your Name" required>
+              <input type="email"name="email" placeholder="Your Email" required>
+              <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn1">Submit</button>
+
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Nikita Kumari Nonia</p>
+        </div>
+      </div>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="js1.js"></script>
+  </body>
+</html>
